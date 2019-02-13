@@ -10,6 +10,9 @@
 
 
 eguru 사이트 파싱을 통한 진격의 거인 다운로드
+
 OS: Windows
+
 python2.7
+
 contact: popjy0312@gmail.com
