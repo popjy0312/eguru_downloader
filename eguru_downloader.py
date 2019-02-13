@@ -68,10 +68,10 @@ for now_link in book_links:
 
 	#print body
 
-	image_links =  re.findall(' src=\"(.*?\.jpg)\"', str(body))
+	image_links =  re.findall(' src=\"(.*?\....)\"', str(body))
 	#print image_links
 
 	for i in range(0,len(image_links)):
 		print book_name + '_' + str(i) + " downloading"
-		urllib.urlretrieve(image_links[i], book_name.decode('utf-8') + '_' + str(i) + '.jpg')
+		urllib.urlretrieve(image_links[i], book_name.decode('utf-8') + '_' + str(i) + image_links[i][-4:])
 	os.chdir("..")
