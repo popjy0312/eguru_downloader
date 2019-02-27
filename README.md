@@ -1,5 +1,10 @@
 # web image downloader
 
+popjy0312(popjy0312@gmail.com)
+
+---------------------------------------------
+
+
 ```
 웹사이트를 파싱하여 해당 사이트의 사진 파일들을 다운로드하는 코드
 ```
@@ -22,5 +27,5 @@ python2.7
 
 
 
-contact: popjy0312@gmail.com
+
 
