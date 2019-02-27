@@ -11,6 +11,8 @@
 
 ## 파일 1. [eguru_downloader.py](/eguru_downloader.py)
 
+[https://eguru.tumblr.com/](https://eguru.tumblr.com/)
+
 eguru 사이트 파싱을 통한 진격의 거인 다운로드
 
 OS: Windows
@@ -20,6 +22,5 @@ python2.7
 
 
 
-
 contact: popjy0312@gmail.com
--------------------------------
+
