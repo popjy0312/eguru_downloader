@@ -73,5 +73,6 @@ for now_link in book_links:
 
 	for i in range(0,len(image_links)):
 		print book_name + '_' + str(i) + " downloading"
-		urllib.urlretrieve(image_links[i], book_name.decode('utf-8') + '_' + str(i) + image_links[i][-4:])
+		urllib.urlretrieve(image_links[i], book_name.decode('utf-8') + '_' + str(i) + '.' + image_links[i].split('.')[-1])	# 다운링크 마지막 파일포맷(.jpg, .png 등 포함 저장)
+
 	os.chdir("..")
